@@ -36,6 +36,4 @@ A collection of simple Bash scripts to automate common system administration tas
 - `mail` utility (for sending alerts)
 - Root/sudo access for log cleanup
 
-## 📌 Note
 
-Test scripts carefully before deploying in production environments.
