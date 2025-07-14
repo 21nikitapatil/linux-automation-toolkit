@@ -1,0 +1,8 @@
+# Run backup every day at 1 AM
+0 1 * * * /bin/bash /home/username/linux-automation-toolkit/backup.sh
+
+# Clean logs weekly on Sunday at midnight
+0 0 * * 0 /bin/bash /home/username/linux-automation-toolkit/log_cleanup.sh
+
+# Monitor disk and memory every hour
+0 * * * * /bin/bash /home/username/linux-automation-toolkit/monitor.sh
